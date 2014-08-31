@@ -1,6 +1,6 @@
-[[["PERIOD", "M", "Y", "D", "G", "SEMICOLON", "W", "H", "COMMA", "QUOTE"],
-  ["A", "R", "E", "S", "F", "K", "T", "N", "I", "O"],
-  ["Z", "X", "C", "V", "J", "ALT", "B", "P", "L", "U", "Q"],
+[[["PERIOD", "M", "Y", "D", "G", "SEMICOLON", "H", "W", "COMMA", "QUOTE"],
+  ["A", "R", "E", "S", "F", "K", "N", "T", "I", "O"],
+  ["Z", "X", "C", "V", "J", "ALT", "P", "B", "L", "U", "Q"],
   ["ESC", "TAB", "GUI", "SHIFT", "BACKSPACE", "CTRL",
    "SPACE", "FN", "MINUS", "SLASH", "ENTER"]],
  [[["shift", "1"], ["shift", "2"], ["shift", "LEFT_BRACE"], ["shift", "RIGHT_BRACE"],
@@ -18,8 +18,15 @@
    "SPACE", "FN", "", "", ["reset"]]]]
 
 /*
-   Capewell
+   Modified Capewell
 
-   With punctuation to match Atreus.
+   With things I learned from typing Dvorak and with punctuation to fit the
+   Atreus.
+
+   Changes from standard Capewell:
+
+   * swap N and T to put T under middle finger like Dvorak.
+   * As a result, swap W,H and B,P so that we prevent digraphs on the middle
+     finger.
 
 */
